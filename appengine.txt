@@ -1,0 +1,16 @@
+Minimum files needed
+appengine-api-1.0-sdk
+appengine-testing
+appengine-local-runtime-shared
+appengine-api-stubs
+appengine-api-labs
+
+
+Maven local install
+mvn install:install-file -Dfile=appengine-api-labs.jar \
+                         -DgroupId=com.google.appengine \
+                         -DartifactId=appengine-api-labs \
+                         -Dversion=1.3.4 \
+                         -Dpackaging=jar \
+                         -DgeneratePom=true \
+                         -DcreateChecksum=true
