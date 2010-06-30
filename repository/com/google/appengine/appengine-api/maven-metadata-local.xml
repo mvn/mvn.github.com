@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.appengine</groupId>
+  <artifactId>appengine-api</artifactId>
+  <version>version</version>
+  <versioning>
+    <versions>
+      <version>version</version>
+    </versions>
+    <lastUpdated>20100630210438</lastUpdated>
+  </versioning>
+</metadata>
