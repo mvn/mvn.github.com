@@ -45,10 +45,4 @@ mvn install:install-file -Dfile=$1/lib/shared/appengine-local-runtime-shared.jar
                          -DcreateChecksum=true 
                          
 cp -r ~/.m2/repository/com/google/appengine/* repository/com/google/appengine  
-
-git add .
-
-git commit -m 'Adding/updating appengine $version' .
-
-git push origin master
                       
