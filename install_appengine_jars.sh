@@ -1,7 +1,17 @@
 #!/bin/bash
 
+# stop script if there is an error
+set -e
+
+if [ $# -ne 1 ]
+then
+  echo "Usage: `basename $0` path"
+  exit 65
+fi
+
 echo -e "Appengine version: \c "
 read  version
+
 
 
 mvn install:install-file -Dfile=$1/lib/impl/appengine-api-labs.jar \
