@@ -21,6 +21,14 @@ mvn install:install-file -Dfile=$1/lib/impl/appengine-api-labs.jar \
                          -Dpackaging=jar \
                          -DgeneratePom=true \
                          -DcreateChecksum=true
+
+mvn install:install-file -Dfile=$1/lib/appengine-tools-api.jar \
+					     -DgroupId=com.google.appengine \
+					     -DartifactId=appengine-tools-api \
+					     -Dversion=$version \
+					     -Dpackaging=jar \
+					     -DgeneratePom=true \
+					     -DcreateChecksum=true
                          
 mvn install:install-file -Dfile=$1/lib/impl/appengine-api.jar \
                          -DgroupId=com.google.appengine \
