@@ -2,13 +2,11 @@
 <metadata>
   <groupId>com.google.appengine</groupId>
   <artifactId>appengine-api-labs</artifactId>
-  <version>1.3.4</version>
+  <version>1.3.5</version>
   <versioning>
     <versions>
-      <version>1.3.4</version>
-      <version>1.3.5-prerelease</version>
       <version>1.3.5</version>
     </versions>
-    <lastUpdated>20100701044842</lastUpdated>
+    <lastUpdated>20100730201519</lastUpdated>
   </versioning>
 </metadata>
