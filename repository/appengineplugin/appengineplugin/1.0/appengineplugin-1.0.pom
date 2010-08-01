@@ -15,6 +15,11 @@
     </dependencies>
     <repositories>
         <repository>
+            <id>MavenrepositoryonGithub</id>
+            <name>Maven repository on Github</name>
+            <url>http://mvn.github.com/repository/</url>
+        </repository>
+        <repository>
             <id>ScalaToolsMaven2Repository</id>
             <name>Scala-Tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases/</url>
